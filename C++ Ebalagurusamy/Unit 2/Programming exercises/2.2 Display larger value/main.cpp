@@ -4,6 +4,17 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    int n,m;
+    cin>>n>>m;
+
+    if(n>m)
+    {
+        cout<<n;
+    }
+    else
+    {
+        cout<<m;
+    }
+
     return 0;
 }
